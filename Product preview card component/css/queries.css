@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-content {
+    display: grid;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2.5rem 3rem 2.5rem 2.5rem;
+    gap: 1.5rem;
+  }
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+  .button {
+    padding: 0.8rem 1.5rem;
+  }
+  .attribution {
+    font-size: 1.2rem;
+  }
+  .button:hover,
+  .button:active {
+    background-color: hsl(157, 45%, 22%);
+    transition: all 0.3s;
+  }
+}
